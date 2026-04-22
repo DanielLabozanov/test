@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Даниэл Лабозанов | QA Engineer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f9; color: #333; }
+        .hero-section { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 60px 0; border-bottom: 5px solid #00d4ff; }
+        .profile-img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 5px solid rgba(255,255,255,0.2); margin-bottom: 20px; }
+        .section-title { border-left: 5px solid #2a5298; padding-left: 15px; margin-bottom: 25px; color: #1e3c72; font-weight: bold; }
+        .card { border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: 0.3s; }
+        
+        /* Стили для ссылок в опыте и обучении */
+        .org-link { 
+            text-decoration: none; 
+            color: #1e3c72 !important; 
+            font-weight: bold; 
+            display: inline-block; 
+            transition: transform 0.3s ease, color 0.3s ease; 
+        }
+        .org-link:hover { 
+            transform: scale(1.05); 
+            color: #00d4ff !important; 
+        }
+
+        /* Стили для ярких кнопок контактов */
+        .contact-btn { 
+            display: flex; 
+            align-items: center; 
+            padding: 12px 15px; 
+            border-radius: 10px; 
+            margin-bottom: 12px; 
+            text-decoration: none; 
+            color: white !important; 
+            font-weight: 600; 
+            transition: 0.3s;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        }
+        .contact-btn i { font-size: 1.5rem; margin-right: 15px; width: 30px; text-align: center; }
+        .contact-btn:hover { transform: scale(1.03); box-shadow: 0 5px 15px rgba(0,0,0,0.2); opacity: 0.9; }
+        
+        .btn-whatsapp { background-color: #25D366; }
+        .btn-telegram { background-color: #0088cc; }
+        .btn-phone { background-color: #007bff; }
+        .btn-gmail { background-color: #db4437; }
+        .btn-linkedin { background-color: #0077b5; }
+        .btn-github { background-color: #24292e; }
+        .btn-map { background-color: #6c757d; }
+
+        .badge-skill { background-color: #2a5298; color: white !important; padding: 8px 15px; border-radius: 20px; font-weight: 500; display: inline-block; margin: 5px; text-decoration: none; }
+        footer { background: #212529; color: white; padding: 30px 0; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+<header class="hero-section text-center">
+    <div class="container">
+        <img src="photo.jpg" alt="Даниэл Лабозанов" class="profile-img">
+        <h1 class="display-4 fw-bold">Даниэл Лабозанов</h1>
+        <p class="lead text-uppercase tracking-wider">QA Инженер / Инженер по обеспечению качества</p>
+    </div>
+</header>
+
+<main class="container my-5">
+    <div class="row">
+        <aside class="col-lg-4 mb-4">
+            <div class="card p-4">
+                <h3 class="section-title">Связаться со мной</h3>
+                
+                <a href="https://wa.me/77014350502" target="_blank" class="contact-btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                
+                <a href="https://t.me/DanielLabozanov" target="_blank" class="contact-btn btn-telegram">
+                    <i class="fab fa-telegram-plane"></i> Telegram
+                </a>
+
+                <a href="tel:+77014350502" class="contact-btn btn-phone">
+                    <i class="fas fa-phone-alt"></i> +7 701 435 0502
+                </a>
+
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=daniellabozanov@gmail.com" target="_blank" class="contact-btn btn-gmail">
+                    <i class="fas fa-envelope"></i> Написать на Gmail
+                </a>
+
+                <hr>
+                <h3 class="section-title">Социальные сети</h3>
+                
+                <a href="https://www.linkedin.com/in/deniel-labozanov-b183433a4" target="_blank" class="contact-btn btn-linkedin">
+                    <i class="fab fa-linkedin-in"></i> LinkedIn Профиль
+                </a>
+
+                <a href="https://github.com/DanielLabozanov/test.git" target="_blank" class="contact-btn btn-github">
+                    <i class="fab fa-github"></i> GitHub Проекты
+                </a>
+
+                <hr>
+                <a href="https://www.google.com/maps/search/?api=1&query=ул.+Менделеева+35,+Алматы" target="_blank" class="contact-btn btn-map">
+                    <i class="fas fa-map-marker-alt"></i> ул. Менделеева 35, Алматы
+                </a>
+
+                <div class="mt-4">
+                    <h3 class="section-title">Языки</h3>
+                    <span class="badge-skill">Русский</span>
+                    <span class="badge-skill">Английский</span>
+                </div>
+            </div>
+        </aside>
+
+        <div class="col-lg-8">
+            <section class="mb-5">
+                <h3 class="section-title">Профиль</h3>
+                <div class="card p-4 bg-white">
+                    <p>Инженер по обеспечению качества (QA) гарантии качество программного обеспечения. Провожу тестирование на протяжении всего жизненного цикла разработки, выявляю ошибки, проверяю требования и предотвращаю проблемы до выпуска продукта.</p>Использую как ручные, так и автоматизированные методы, обеспечиваю бесперебойную работу пользовательского интерфейса и надежность продукта, что делает меня незаменимым в создании высококачественного программного обеспечения. Моя работа включает анализ требований, создание тестовых примеров, выполнение тестов, написание отчетов о дефектах и регрессионное тестирование, чтобы гарантировать, что исправления не нарушат работу других частей системы.</p>
+                </div>
+            </section>
+
+            <section class="mb-5">
+                <h3 class="section-title">Опыт работы</h3>
+                
+                <div class="card p-4 mb-3">
+                    <div class="d-flex justify-content-between flex-wrap">
+                        <h5 class="fw-bold">Врач - Ортодонт</h5>
+                        <span class="text-muted">Ноябрь 2016 — Настоящее время</span>
+                    </div>
+                    <p class="mb-2">
+                        <a href="https://www.google.com/maps/place/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B8/@43.2502407,76.8982246,17.45z/data=!4m6!3m5!1s0x388369d1d15e3b2d:0xf8408f654d28b0a2!8m2!3d43.2503569!4d76.9001423!16s%2Fg%2F11rsv8b7vl?authuser=0&entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="org-link">
+                            Интерсити - Алматы
+                        </a>
+                    </p>
+                    <p class="mb-1 text-muted small">улица Богенбай Батыра 263а, Алматы 050008</p>
+                    <ul>
+                        <li>Коррекция зубоальвеолярных аномалий и неправильного прикуса.</li>
+                        <li>Исправление прикуса у детей, подростков и взрослых.
+</ul>
+                </div>
+
+                <div class="card p-4">
+                    <div class="d-flex justify-content-between flex-wrap">
+                        <h5 class="fw-bold">Врач скорой помощи, специалист по реанимации</h5>
+                        <span class="text-muted">2010 — 2015</span>
+                    </div>
+                    <p class="mb-2">
+                        <a href="https://www.google.com/maps/place/%D0%93%D0%9A%D0%9F+%D0%BD%D0%B0+%D0%9F%D0%A5%D0%92+%22%D0%A1%D0%A1%D0%9C%D0%9F%22+%D0%9F%2F%D0%A1+%234/@43.2282442,76.9617838,19.91z/data=!4m9!1m2!2m1!1zNC3RjyDQv9C-0LTRgdGC0LDQvdGG0LjRjyDRgdC60L7RgNC-0Lkg0LzQtdC00LjRhtC40L3RgdC60L7QuSDQv9C-0LzQvtGJ0Lgg0LIg0JDQu9C80LDRgtGLICjQnNC10LTQtdGD0YHQutC40Lkg0YDQsNC50L7QvSkg0YDQsNGB0L_QvtC70L7QttC10L3QsCDQv9C-INC_0YDQvtGB0L_QtdC60YLRgyDQlNC-0YHRgtGL0LosIDIyMCwg0Lgg0YDQsNCx0L7RgtCw0LXRgiDQutGA0YPQs9C70L7RgdGD0YLQvtGH0L3Qvi4g0K3RgtCwINC_0L7QtNGB0YLQsNC90YbQuNGPINC-0LHQtdGB0L_QtdGH0LjQstCw0LXRgiDQsdCw0LfQuNGA0L7QstCw0L3QuNC1INCx0YDQuNCz0LDQtCwg0L7QsdGB0LvRg9C20LjQstCw0Y7RidC40YUg0LTQsNC90L3Ri9C5INGA0LDQudC-0L0uINCU0LvRjyDQstGL0LfQvtCy0LAg0YHQutC-0YDQvtC5INC80LXQtNC40YbQuNC90YHQutC-0Lkg0L_QvtC80L7RidC4INC90LXQvtCx0YXQvtC00LjQvNC-INC30LLQvtC90LjRgtGMINC_0L4g0LXQtNC40L3QvtC80YMg0L3QvtC80LXRgNGDIDEwMw!3m5!1s0x38836f071a5e3517:0x13acfabbfac78d67!8m2!3d43.2281752!4d76.9619087!16s%2Fg%2F11c75zd5hy?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="org-link">
+                            4-ая Подстанция Скорой Медицинской Помощи г. Алматы
+                        </a>
+                    </p>
+                    <p class="mb-1 text-muted small">ул. Елебекова 16, Алматы 050051</p>
+Оказание экстренной первой медицинской помощи, проведение реанимационных мероприятий для пациентов детского и взрослого возраста в критических ситуациях.
+                </div>
+            </section>
+
+            <section>
+                <h3 class="section-title">Образование</h3>
+                <div class="card p-4 mb-3">
+                    <h5 class="fw-bold">
+                        <a href="https://www.google.com/maps/place/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D1%81%D0%BA%D0%BE-%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9+%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82/@43.2650579,76.9349563,17z/data=!3m1!4b1!4m6!3m5!1s0x38836ea6603d945d:0x69160e7160073d24!8m2!3d43.265058!4d76.9398326!16s%2Fg%2F11cr_0jsxh?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="org-link">
+                            Казахстанско-Российский медицинский университет (КРМУ)
+                        </a>
+                    </h5>
+                    <p class="mb-1 text-muted small">пр. Абылай хана, 51/53 (угол ул. Макатаева)</p>
+                    <p class="mb-1">Диплом о высшем медицинском образовании. Врач-Стоматолог.</p>
+                    <small class="text-muted">Сентябрь 2005 — Июль 2009</small>
+                </div>
+                <div class="card p-4">
+                    <h5 class="fw-bold">
+                        <a href="https://www.google.com/maps/place/%D0%92%D1%8B%D1%81%D1%88%D0%B8%D0%B9+%D0%BC%D0%B5%D0%B4%D0%B8%D0%BA%D0%BE-%D1%81%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%B4%D0%B6+%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%BE%D1%80%D0%B0+%D0%A0%D1%83%D0%B7%D1%83%D0%B4%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0/@43.2501287,76.8998217,19.5z/data=!4m14!1m7!3m6!1s0x388369d1d15e3b2d:0xf8408f654d28b0a2!2z0JjQvdGC0LXRgNGB0LjRgtC4!8m2!3d43.2503569!4d76.9001423!16s%2Fg%2F11rsv8b7vl!3m5!1s0x38836eb153056dc7:0xd1797a9f0e020777!8m2!3d43.2503649!4d76.9001311!16s%2Fg%2F1hf9vqxlr?authuser=0&entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="org-link">
+                            Высший Медико-Стоматологический колледж профессора Рузуддинова
+                        </a>
+                    </h5>
+                    <p class="mb-1 text-muted small">улица Богенбай Батыра 263а, Алматы 050000</p>
+                    <p class="mb-1">Диплом зубного техника</p>
+                    <small class="text-muted">Сентябрь 2002 — Июль 2005</small>
+                </div>
+            </section>
+        </div>
+    </div>
+</main>
+
+<footer class="text-center">
+    <div class="container">
+        <p>© 2026 Даниэл Лабозанов. Портфолио QA Инженера.</p>
+    </div>
+</footer>
+
+</body>
+</html>
